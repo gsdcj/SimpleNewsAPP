@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  background: darkslategray;
+}
+.head{
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+.search{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 1rem;
+}
+input,
+.btnSearch{
+  padding: 1rem;
+  background: gray;
+  border: none;
+}
+.btnSearch:hover{
+  background: darkslategray;
+}
+.categoryBTN{
+  align-items: centre;
+  text-align: center;
+  margin-top: 1rem;
+}
+.politics{
+  padding: 1rem;
+  width: 250px;
+  margin-bottom: 0.5rem;
+  border-radius: 10px;
+  font-size: 20px;
+}
